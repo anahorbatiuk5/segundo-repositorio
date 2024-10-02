@@ -42,65 +42,128 @@
         <ul class="opcoes">
             <input type="checkbox"   id="opcoes-menu"    class="opcoes__botao">
             <label for="opcoes-menu"> 
-                <li class="opcoes__item"> CATEGORIAS REVER </li>
+                <li class="opcoes__item"> CATEGORIAS </li>
             </label>
 
             <ul class="cabecalho-lista">
-                
+                <li class="cabecalho-lista-item">
 
+                </li>
+                    <a href="#" class="menu__lista-item">Opção 1 </a>
+                </li>
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">Opção 2 </a>
+                </li>
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">Opção 3 </a>
+                </li>
             </ul>
 
+            <li class="opcoes__item"><a href="#" class="opcoes__link">  Escola </a>
+            </li>   
+            <li class="opcoes__item"><a href="#" class="opcoes__link">  Estudante 
+            </a></li>
+
+        
         </ul>
+          
 
-        <a href="#"> <img src="img/favoritos.svg" alt=""> </a>
-        <a href="#"> <img src="img/compras.svg" alt=""> </a>
-        <a href="#"> <img src="img/usuario.svg" alt=""> </a>
-
-        <ul class="cabecalho-lista">
-            <li class="cabecalho-lista-item">Escola</li>
-            <li class="cabecalho-lista-item">Estudantes</li>
-        </ul>
-    </header>
-
-    <section class="escola">
-        <section class="carrossel">
-
-            <h2 class="carrossel_titulo">nossos produtos</h2>
-
-            <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                 ...
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-  
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-  
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
         </div>
 
-            </h2>
-        </section>
+
+ </header>
+<div class="container">
+                <a href="#"> <img  class="cabecalho-imagem cabecalho__favorito" src="./img/favoritos.svg" alt="Meus favoritos"> </a>
+                <a href="#" class="container__link" >
+                    <img class="cabecalho-imagem" src="./img/compras.svg" alt="Carrinho de compras">
+                    <p class="container__texto"> Minha Sacola </p>
+                </a>
+                <a href="#" class="container__link" >
+                    <img  class="cabecalho-imagem"  src="img/usuario.svg" alt="Meu Perfil">
+                    <p class="container__texto" >Meu Perfil</p>
+                </a>
+    <section class="escola">
         <div class="escola-div-conteudo">
             <h2 class="escola-titulo"> Sobre a Escola </h2>
             <p class="escola-texto-um"> A Escola Alura foi fundada em 2010 e tem como objetivo ensinar Pensamento
-                Computacional, através de Programação. </p>
+                     Computacional, através de Programação. </p>
             <p class="escola-texto-dois">A turma mais estudiosa e famosa é a segunda série, turma E. Nós somos super
-                unidos e a turma favorita por todos os professores que nos ajudam!</p>
+                     unidos e a turma favorita por todos os professores que nos ajudam!</p>
+            </div>
+            <img src="img/Online learning-amico.svg" alt="imagem da escola" class="escola-imagem">
+            
+            </section>
+            
+            <section class="carrossel">
+                    
+                <h2 class="carrossel__titulo">Nossos Serviços</h2>
+            
+                <!-- Slider main container -->
+                <div class="swiper">
+                     <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./img/biscoitinho-amanteigado-de-goiabada.png"
+                            alt="biscoito de polvilho"></div>
+                        <div class="swiper-slide"><img src="./img/biscoitinho.webp"
+                            alt="biscoito de goiaba"></div>
+                        <div class="swiper-slide"><img src="./img/biscoito.png" 
+                            alt="biscoito de polvilho"></div>
+                        <div class="swiper-slide"><img src="./img/biscoitoo.jpg" 
+                            alt="biscoito de goiaba"></div>
+                        <div class="swiper-slide"><img src="./img/bolacha.jpg"
+                             alt="biscoito de polvilho"></div>
+                        <div class="swiper-slide"><img src="./img/bolachaa.jpg"
+                             alt="biscoito de goiaba"></div>
+                        <div class="swiper-slide"><img src="./img/bolachinha.png" 
+                            alt="biscoito de polvilho"></div>
+                            
+                            
+                         <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                
+            </div>
+           
         </div>
-        <img src="img/Online learning-amico.svg" alt="imagem da escola" class="escola-imagem">
+        
+        <!-- Promoção - Melhor Produto -->
+        <div class="card">
+             
+            <div class="card__descricao">
 
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por... </h3>
+                    <h2 class="descricao__titulo-produto">Aulas Particulares</h2>
+                    <p class="descricao__texto"> Aulas particulares de Matemática, Pensamento Computacional, Robótica, Programação em HTML, CSS e Javascript</p>
+                </div>
+                
+                <img src="./img/Online learning-amico.svg" alt="Foto da promoção" class="desricao__imagem">
+
+            </div>
+
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item">
+                        <img src="./img/favoritos.svg" alt="Favoritar produto">
+                    </li>
+                    <li class="botoes__item"> 
+                        <img src="./img/compras.svg" alt="Adicionar no carrinho de compras">
+                    </li>
+                </ul>
+
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+
+            </div>
+        </div>
+
+    
+    
+    
+    
     </section>
-
+      
+    
     <section class="estudante">
         <h2 class="estudante-titulo">Quem sou</h2>
         <div class="estudante-div">
@@ -116,6 +179,18 @@
         <img src="img/alurastart_logo.png" alt="logo da alura" class="rodape-imagem">
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+
 </body>
 
 </html>
