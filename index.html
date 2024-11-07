@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link 
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles/apresentacao.css">
 </head>
@@ -23,9 +24,9 @@
 <body>
     <header class="cabecalho">
         <div class="container">
-            <input type="checkbox" id="menu" class="container__botao">
+            <input type="checkbox"  id="menu"    class="container__botao">
             <label for="menu">
-                <span class="cabecalho__menu  container__imagem"> </span>
+                <span class="cabecalho__menu  container__imagem"> </span> 
             </label>
 
             <ul class="cabecalho-lista">
@@ -34,14 +35,14 @@
                 <li class="cabecalho-lista-item"><a href="#" class="menu__lista-item"> Projetos</a></li>
                 <li class="cabecalho-lista-item"><a href="#" class="menu__lista-item"> Contato </a></li>
             </ul>
-
-            <img class="cabecalho-imagem  container__imagem  " src="img/LOGO.png" alt="logo la dolce vita">
+      
+            <img class="cabecalho-imagem  container__imagem" src="./img/alurastart_logo.png" alt="logo AluraStart">
             <h1 class="container-titulo"> La Dolce Vita </h1>
         </div>
 
         <ul class="opcoes">
-            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
-            <label for="opcoes-menu">
+            <input type="checkbox"   id="opcoes-menu"    class="opcoes__botao">
+            <label for="opcoes-menu"> 
                 <li class="opcoes__item"> CATEGORIAS </li>
             </label>
 
@@ -57,39 +58,93 @@
                 </li>
             </ul>
 
-            <li class="opcoes__item"><a href="#" class="opcoes__link"> festas </a></li>
-            <li class="opcoes__item"><a href="#" class="opcoes__link"> restaurantes </a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">  Escola  </a> </li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">  Estudante  </a></li>
 
         </ul>
 
         <div class="container">
-            <a href="#"> <img class="cabecalho-imagem cabecalho__favorito" src="./img/favoritos.svg"
-                    alt="Meus favoritos"> </a>
-            <a href="#" class="container__link">
+            <a href="#"> <img  class="cabecalho-imagem cabecalho__favorito" src="./img/favoritos.svg" alt="Meus favoritos"> </a>
+            <a href="#" class="container__link" >
                 <img class="cabecalho-imagem" src="./img/compras.svg" alt="Carrinho de compras">
                 <p class="container__texto"> Minha Sacola </p>
             </a>
-            <a href="#" class="container__link">
-                <img class="cabecalho-imagem" src="img/usuario.svg" alt="Meu Perfil">
-                <p class="container__texto">Meu Perfil</p>
+            <a href="#" class="container__link" >
+                <img  class="cabecalho-imagem"  src="img/usuario.svg" alt="Meu Perfil">
+                <p class="container__texto" >Meu Perfil</p>
             </a>
         </div>
-
+        
     </header>
-
 
     <section class="escola">
         <div class="escola-div-conteudo">
             <h2 class="escola-titulo"> Sobre a Escola </h2>
-            <p class="escola-texto-um"> A Escola Alura foi fundada em 2010 e tem como objetivo ensinar Pensamento Computacional, através de Programação. </p>
-            <p class="escola-texto-dois">A turma mais estudiosa e famosa é a segunda série, turma E. Nós somos super unidos e a turma favorita por todos os professores que nos ajudam!</p>
-        </div>
-        <img src="img/Online learning-amico.svg" alt="imagem da escola" class="escola-imagem">
+        <p class="escola-texto-um"> A Escola Alura foi fundada em 2010 e tem como objetivo ensinar Pensamento
+            Computacional, através de Programação. </p>
+        <p class="escola-texto-dois">A turma mais estudiosa e famosa é a segunda série, turma E. Nós somos super
+            unidos e a turma favorita por todos os professores que nos ajudam!</p>
+    </div>
+    <img src="img/Online learning-amico.svg" alt="imagem da escola" class="escola-imagem">
+
+    </section>
+
+    <section id="flashcard" >
+
+        <article class="cartao">
+
+            <!--
+            <div class="cartao__conteudo">
+                <h3>Missão</h3>
+                
+                <div class="cartao__conteudo__pergunta">
+                    <p>Saiba qual é a missão de nossa empresa!</p>
+                </div>
+                
+                <div class="cartao__conteudo__resposta">
+                    <p>Nossa missão é ... </p>
+                </div>
+            </div>
+            -->
+            
+        </article>
+
+        <article class="cartao">
+
+            <div class="cartao__conteudo">
+                <h3>Visão</h3>
+                
+                <div class="cartao__conteudo__pergunta">
+                    <p>Saiba qual é a Visão de nossa empresa!</p>
+                </div>
+                
+                <div class="cartao__conteudo__resposta">
+                    <p>Nossa Visão é ... </p>
+                </div>
+            </div>
+        
+        </article>
+
+        <article class="cartao">
+
+            <div class="cartao__conteudo">
+                <h3>Valores</h3>
+                
+                <div class="cartao__conteudo__pergunta">
+                    <p>Saiba quais são os valores de nossa empresa! </p>
+                </div>
+                
+                <div class="cartao__conteudo__resposta">
+                    <p>Nossos valores são ... </p>
+                </div>
+            </div>
+
+        </article>
 
     </section>
 
     <section class="carrossel">
-
+        
         <h2 class="carrossel__titulo">Nossos Serviços</h2>
 
         <!-- Slider main container -->
@@ -97,24 +152,24 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="./img/biscoitinho-amanteigado-de-goiabada.png"
-                alt="biscoito de polvilho"></div>
-                <div class="swiper-slide"><img src="./img/biscoitinho.webp" alt="biscoito de goiaba"></div>
-                <div class="swiper-slide"><img src="./img/biscoito.png" alt="biscoito de polvilho"></div>
-                <div class="swiper-slide"><img src="./img/biscoitoo.jpg" alt="biscoito de goiaba"></div>
-                <div class="swiper-slide"><img src="./img/bolacha.jpg" alt="biscoito de polvilho"></div>
-                <div class="swiper-slide"><img src="./img/bolachaa.jpg" alt="biscoito de goiaba"></div>
-                <div class="swiper-slide"><img src="./img/bolachinha.png" alt="biscoito de polvilho"></div>
-
-
+                <div class="swiper-slide"><img src="./img/biscoitinho-amanteigado-de-goiabada.png alt="biscoitinho-amanteigado-de-goiabada"></div>
+                <div class="swiper-slide"><img src="./img/biscoitinho.webp alt="biscoitinho"></div>
+                <div class="swiper-slide"><img src="./img/biscoito.png alt="biscoito"></div>
+                <div class="swiper-slide"><img src="./img/biscoitoo.jpg" alt="biscoitoo"></div>
+                <div class="swiper-slide"><img src="./img/bolacha.jpg alt="bolacha"></div>
+                <div class="swiper-slide"><img src="./img/bolachaa.jpg alt="bolachaa"></div>
+                <div class="swiper-slide"><img src="./img/bolachinha.png alt="bolachinha"></div>
+                
+                
+                
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-
+                
             </div>
-
+        
         </div>
-
+        
         <!-- Promoção - Melhor Produto -->
         <div class="card">
 
@@ -123,11 +178,10 @@
                 <div class="descricao">
                     <h3 class="descricao__titulo">Talvez você também se interesse por... </h3>
                     <h2 class="descricao__titulo-produto">Aulas Particulares</h2>
-                    <p class="descricao__texto"> Aulas particulares de Matemática, Pensamento Computacional, Robótica, 
-                        Programação em HTML, CSS e Javascript</p>
+                    <p class="descricao__texto"> Aulas particulares de Matemática, Pensamento Computacional, Robótica, Programação em HTML, CSS e Javascript</p>
                 </div>
-
-                <img src="./img/foto.png" alt="Foto da promoção" class="desricao__imagem">
+                
+                <img src="./img/foto.png" alt="Foto da promoção" class="descricao__imagem">
 
             </div>
 
@@ -136,7 +190,7 @@
                     <li class="botoes__item">
                         <img src="./img/favoritos.svg" alt="Favoritar produto">
                     </li>
-                    <li class="botoes__item">
+                    <li class="botoes__item"> 
                         <img src="./img/compras.svg" alt="Adicionar no carrinho de compras">
                     </li>
                 </ul>
@@ -146,31 +200,27 @@
             </div>
         </div>
 
-
-
-
-
+    
+    
+    
+    
     </section>
-
 
     <section class="estudante">
         <h2 class="estudante-titulo">Quem sou</h2>
         <div class="estudante-div">
             <img src="img/fotoana.jpeg" alt="foto da ana" class="estudante-imagem">
-            <h3 class="estudante-nome"> ana vitoria horbatiuk ramos </h3>
-            <a href="https://github.com/anahorbatiuk5"> <img 
-            src="img/github.svg"
-            alt="icone do github"class="estudante-icone"> </a>
-            <a href="https://instagram.com/_itz_anavick"> <img src="img/instagram.svg" alt="icone do instagram"
-                    class="estudante-icone"> </a>
-            <a href="https://wa.me/5541998025937?text="> <img src="img/whatsapp.svg" alt="icone do whatsapp" class="estudante-icone"> </a>
+            <h3 class="estudante-ana"> Ana Vitoria Horbatiuk Ramos </h3>
+            <a href="https://github.dev/anahorbatiuk5/segundo-repositorio"> <img src="img/download (4).jpeg"icone do github" class="estudante-icone"> </a>
+            <a href="https://instagram.com/_itz_anavick"> <img src="img/Instagram_logo_2022.svg.webp" alt="icone do instagram" class="estudante-icone"> </a>
+            <a href="https://w.app/Qc9EXY"> <img src="img/whatsapp.svg" alt="icone do whatsapp" class="estudante-icone"> </a>      
         </div>
     </section>
-
+    
     <footer class="rodape">
         <img src="img/alurastart_logo.png" alt="logo da alura" class="rodape-imagem">
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
@@ -183,6 +233,9 @@
             },
         });
     </script>
+
+    <script src="app.js" ></script>
+    <script src="missaoVisaoValores.js" ></script>
 
 </body>
 
