@@ -10,15 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
-    <link 
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
       
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styles/apresentacao.css">
+    <!--link rel="stylesheet" href="styles/apresentacao.css">
 </head>
 
 <body>
@@ -63,8 +58,8 @@
 
         </ul>
 
-        <div class="container">
-            <a href="#"> <img  class="cabecalho-imagem cabecalho__favorito" src="./img/favoritos.svg" alt="Meus favoritos"> </a>
+        <div class="container" id="container__left">
+            <a href="#"> <img id="favorito-header" class="cabecalho-imagem cabecalho__favorito header__favorito" src="./img/favoritos.svg" alt="Meus favoritos"> </a>
             <a href="#" class="container__link" >
                 <img class="cabecalho-imagem" src="./img/compras.svg" alt="Carrinho de compras">
                 <p class="container__texto"> Minha Sacola </p>
@@ -77,7 +72,8 @@
         
     </header>
 
-    <section class="escola">
+    <main>
+        <section class="escola">
         <div class="escola-div-conteudo">
             <h2 class="escola-titulo"> Sobre a Escola </h2>
         <p class="escola-texto-um"> A Escola Alura foi fundada em 2010 e tem como objetivo ensinar Pensamento
@@ -90,10 +86,10 @@
     </section>
 
     <section id="flashcard" >
-
+        <!--
         <article class="cartao">
 
-            <!--
+            
             <div class="cartao__conteudo">
                 <h3>Missão</h3>
                 
@@ -105,7 +101,6 @@
                     <p>Nossa missão é ... </p>
                 </div>
             </div>
-            -->
             
         </article>
 
@@ -140,7 +135,7 @@
             </div>
 
         </article>
-
+         -->
     </section>
 
     <section class="carrossel">
@@ -160,13 +155,14 @@
                 <div class="swiper-slide"><img src="./img/bolachaa.jpg alt="bolachaa"></div>
                 <div class="swiper-slide"><img src="./img/bolachinha.png alt="bolachinha"></div>
                 
-                
-                
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                
             </div>
+                
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+                    
+            
         
         </div>
         
@@ -188,7 +184,9 @@
             <div class="card__botoes">
                 <ul class="botoes">
                     <li class="botoes__item">
+
                         <img src="./img/favoritos.svg" alt="Favoritar produto">
+                    
                     </li>
                     <li class="botoes__item"> 
                         <img src="./img/compras.svg" alt="Adicionar no carrinho de compras">
@@ -199,10 +197,7 @@
 
             </div>
         </div>
-
-    
-    
-    
+    </div>
     
     </section>
 
@@ -216,26 +211,29 @@
             <a href="https://w.app/Qc9EXY"> <img src="img/whatsapp.svg" alt="icone do whatsapp" class="estudante-icone"> </a>      
         </div>
     </section>
-    
+</main>
+
     <footer class="rodape">
         <img src="img/alurastart_logo.png" alt="logo da alura" class="rodape-imagem">
     </footer>
 
+    <script src="favorito.js" ></script>
+    <script src="app2.js" ></script>
+    <script src="missaoVisaoValores.js" ></script>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 1,
-
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            },
+        var swiper = new Swiper(".swiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
         });
-    </script>
-
-    <script src="app.js" ></script>
-    <script src="missaoVisaoValores.js" ></script>
+      </script>
 
 </body>
 
