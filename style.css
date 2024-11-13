@@ -2,14 +2,15 @@
 @import url(/styles/header.css);
 @import url(/styles/carrosel.css ); 
 @import url(/styles/flashcard2.css);
+
 :root {
-    --cor-principal: #845EC2;
-    --cor-secundaria: #D65DB1;
+    --cor-principal: #f3e3ae;
+    --cor-secundaria: #b68546;
     --cor-rosa: #FF6F91;
-    --cor-laranja: #FF9671;
-    --cor-fundo: #FFC75F;
-    --cor-escrita: #F9F871;
-    --cor-botao: #00C9A7;
+    --cor-laranja: #fff8df;
+    --cor-fundo: #f8eacf;
+    --cor-escrita: #020200;
+    --cor-botao: #b97a04;
     --cor-preto: #000000;
     --cor-branco: #ffffff;
 }
