@@ -10,7 +10,7 @@ main {
     position: fixed;
     top: 0;
     width:100%;
-    color:var(--cor-branco);
+    color:var(--cor-bege);
     z-index:1000;
 }
 
