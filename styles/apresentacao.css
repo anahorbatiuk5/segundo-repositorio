@@ -36,7 +36,7 @@ header {
 }
 
 .escola {
-    background-image:var(--cor-fundo);
+    background-image:linear-gradient(#f3deb5,#000000 );
     color: white;
     display: flex;
     justify-content: center;
