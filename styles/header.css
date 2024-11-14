@@ -3,7 +3,7 @@ main {
 }
 
 .cabecalho {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-fundo);
     display: flex;
     justify-content: space-between;
     align-items: center;
