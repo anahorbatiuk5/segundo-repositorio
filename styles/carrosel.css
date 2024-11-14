@@ -74,7 +74,7 @@
 }
 
 .descricao__titulo-produto {
-  color: var(--cor-laranja);
+  color: var(--cor-fundo);
   font-size: 18px;
   font-weight: 700;
   margin: 0.5em 0;
@@ -89,7 +89,7 @@
 }
 
 .botoes__ancora {
-  background-color: var(--cor-laranja);
+  background-color: var( --cor-fundo);
   padding: 1em 2.2em;
   color: var(--cor-branco);
   font-weight: 700;
