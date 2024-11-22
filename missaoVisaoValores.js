@@ -9,8 +9,8 @@ criaCartao (
     'Visão',
     'Saiba que é a visão de nossa empresa!',
     'visão é Ser referência na arte da confeitaria, reconhecida
-por inovações saborosas e compromisso com
-a qualidade e sustentabilidade, mantendo a tradição e o amor pelo que fazemos....'
+ 'por inovações saborosas e compromisso com
+'a qualidade e sustentabilidade, mantendo a tradição e o amor pelo que fazemos....'
 )
 
 criaCartao (
