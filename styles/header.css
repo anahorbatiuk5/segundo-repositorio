@@ -21,8 +21,8 @@ main {
 }
 
 .cabecalho__menu{
-    width: 24px;
-    height: 24px;
+    width: 12px;
+    height: 14px;
     background-image: url("../img/menu.svg");
     background-repeat: no-repeat;
     background-position: center;
