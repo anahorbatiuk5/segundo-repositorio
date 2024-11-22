@@ -21,8 +21,8 @@ main {
 }
 
 .cabecalho__menu{
-    width: 12px;
-    height: 14px;
+    width: 20;
+    height: 20;
     background-image: url("../img/menu.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -57,7 +57,7 @@ main {
 .cabecalho-lista-titulo {
     padding: 1em;
     color: var(--preto);
-    font-weight: 900;
+    font-weight: 700
     text-transform: uppercase;
 }
 
