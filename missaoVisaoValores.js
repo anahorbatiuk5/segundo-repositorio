@@ -13,5 +13,5 @@ criaCartao (
 criaCartao (
     'Valores',
     'Saiba quais são os valores de nossa empresa!',
-    'valores são Qualidade e inovação. Sustentabilidade. Comunidade e Alegria...'
+    'valores são Qualidade e inovação, sustentabilidade, comunidade e alegria...'
 )
