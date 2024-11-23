@@ -9,9 +9,9 @@ main {
     align-items: center;
     position: fixed;
     top: 0;
-    width: 100px;
-    color:var(--cor-bege);
-    z-index:1000;
+    width: 100%;
+    color: var(--cor-bege);
+    z-index: 1000;
 }
 
 .container {
